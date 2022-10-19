@@ -1,7 +1,7 @@
 # restaurant_revenue_prediction
 Predict annual restaurant sales based on objective measurements (kaggle)  <br />
 A link to competition - https://www.kaggle.com/competitions/restaurant-revenue-prediction/submissions
-It's a regression problem. This data set has only 137 samples and 41 features. Most of the features have no description so we can't say anything about them. 
+It's a regression problem. This data set has only 137 samples and 41 features. Most of the features have no description so we can't say anything about them. <br />
 My notebooks description: 
 
 1. catboost preproc.ipynb <br />
