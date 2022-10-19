@@ -5,7 +5,7 @@ It's a regression problem. This data set has only 137 samples and 41 features. M
 My notebooks description: 
 
 1. catboost preproc.ipynb <br />
-I chose the catboost model because it can work with categorical variables without any preprocessing and I used Optuna for hyperparameters tuning. I wanted to use LeaveOneOut, but with Optuna it could be to slow, so after the best hyperparameters were found I used RandomSearch with a small grid to clarify hyperparams and fitted the model. Finally, my score was 1809288 and the best score on Kaggle is 1727811, which is quite close. 
+I chose the catboost model because it can work with categorical variables without any preprocessing and I used Optuna for hyperparameters tuning. I wanted to use LeaveOneOut, but with Optuna it could be to slow, so after the best hyperparameters were found I used RandomSearch with a small grid to clarify hyperparams and fitted the model. Finally, my score was 1809288 and the best score on Kaggle is 1727811, which is quite close. <br />
 P.S. I think that the open part of data is very small so the model has a poor ability to generalize and the score can change dramatically with another split. 
 
 2. KNN_reg.ipynb <br />
